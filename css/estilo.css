@@ -7,16 +7,20 @@
     padding: 0;
     color: white;
 }
+
 header {
     background-color: rgb(10, 10, 10);
 }
+
 header:hover {
     background-color: rgb(13, 13, 13);
     transition: all 0.3s ease 0s;
 }
+
 body {
     background-color: rgb(15, 15, 15);
 }
+
 ul.nav_links li,
 a,
 button {
@@ -31,32 +35,32 @@ p {
     font-size: 20px;
     text-decoration: none;
     color: rgb(189, 189, 189);
-    padding: 35px ;
+    padding: 35px;
     text-indent: 10px;
 }
 
 section#corpo {
     margin-top: 50px;
-    margin-left: 180px;
+    margin-left:  10%;
     text-align: justify;
     display: block;
-    margin-right: 180px
-
+    margin-right: 10%
 }
 
-h1{
+h1 {
     margin-left: 0px;
     font-size: 27px;
-    padding-left: 20px ;
+    padding-left: 20px;
     font-family: "Montserrat Alternates", sans-serif;
 }
-h2
- {
+
+h2 {
     font-size: 20px;
-    padding-left: 50px ;
+    padding-left: 50px;
     font-family: "Montserrat Alternates", sans-serif;
     color: rgb(214, 214, 214);
 }
+
 div.logo {
     background: url(../imagens/logo.jpeg);
     width: 45px;
@@ -102,4 +106,10 @@ button {
 
 button:hover {
     background-color: rgba(0, 136, 169, 0.8);
+}
+
+@media (max-width: 600px) {
+    * {
+        width: 100%;
+    }
 }
