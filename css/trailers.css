@@ -14,8 +14,8 @@ ul#trailers {
 
 ul#trailers li {
     float: left;
-    width: 300px;
-    height: 180px;
+    width: 150px;
+    height: 220px;
     margin: 10px;
     border-radius: 10px;
     background-color: white;
@@ -31,7 +31,7 @@ ul#trailers li span {
     font-size: 10pt;
     line-height: 10px;
     padding: 5px;
-    margin-top: 150px;
+    margin-top: 120%;
     border-radius: 2px;
 }
 
@@ -43,6 +43,8 @@ ul#trailers li#trailers01 {
 }
 ul#trailers li#trailers01:hover {
     background-size: 100%;
+    width: 20%;
+    height: 350px;
 }
 
 ul#trailers li#trailers02 {
@@ -53,6 +55,8 @@ ul#trailers li#trailers02 {
 }
 ul#trailers li#trailers02:hover {
     background-size: 100%;
+    width: 20%;
+    height: 350px;
 }
 
 ul#trailers li#trailers03 {
@@ -63,6 +67,8 @@ ul#trailers li#trailers03 {
 }
 ul#trailers li#trailers03:hover {
     background-size: 100%;
+    width: 20%;
+    height: 350px;
 }
 
 ul#trailers li#trailers04 {
@@ -73,6 +79,8 @@ ul#trailers li#trailers04 {
 }
 ul#trailers li#trailers04:hover {
     background-size: 100%;
+    width: 20%;
+    height: 350px;
 }
 
 ul#trailers li#trailers05 {
@@ -83,6 +91,20 @@ ul#trailers li#trailers05 {
 }
 ul#trailers li#trailers05:hover {
     background-size: 100%;
+    width: 20%;
+    height: 350px;
+}
+
+ul#trailers li#trailers06 {
+    background: url(../imagens/yuusha.jpg);
+    background-position: 50% 50%;
+    background-color: white;
+    background-size: 110%;
+}
+ul#trailers li#trailers06:hover {
+    background-size: 100%;
+    width: 20%;
+    height: 350px;
 }
 
 iframe#frame-spec {
