@@ -1,0 +1,100 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+
+
+ul#trailers {
+    margin-top: 30px;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#trailers li {
+    float: left;
+    width: 300px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+    transition: all .3s ease-out;
+}
+
+ul#trailers li span {
+    float: left;
+    font-family: "Montserrat Alternates", sans-serif;
+    opacity: 1;
+    color: white;
+    background-color: rgba(0, 136, 169, 1);
+    font-size: 10pt;
+    line-height: 10px;
+    padding: 5px;
+    margin-top: 150px;
+    border-radius: 2px;
+}
+
+ul#trailers li#trailers01 {
+    background: url(../imagens/mushoku.jpeg);
+    background-position: 50% 50%;
+    background-color: white;
+    background-size: 110%;
+}
+ul#trailers li#trailers01:hover {
+    background-size: 100%;
+}
+
+ul#trailers li#trailers02 {
+    background: url(../imagens/sao.jpeg);
+    background-position: 50% 50%;
+    background-color: white;
+    background-size: 110%;
+}
+ul#trailers li#trailers02:hover {
+    background-size: 100%;
+}
+
+ul#trailers li#trailers03 {
+    background: url(../imagens/overlord.jpg);
+    background-position: 50% 50%;
+    background-color: white;
+    background-size: 110%;
+}
+ul#trailers li#trailers03:hover {
+    background-size: 100%;
+}
+
+ul#trailers li#trailers04 {
+    background: url(../imagens/slime.jpeg);
+    background-position: 50% 50%;
+    background-color: white;
+    background-size: 110%;
+}
+ul#trailers li#trailers04:hover {
+    background-size: 100%;
+}
+
+ul#trailers li#trailers05 {
+    background: url(../imagens/taizai.jpeg);
+    background-position: 50% 50%;
+    background-color: white;
+    background-size: 110%;
+}
+ul#trailers li#trailers05:hover {
+    background-size: 100%;
+}
+
+iframe#frame-spec {
+    justify-content: center;
+    width: 1200px;
+    height: 375px;
+    margin-top: 60px;
+    border: none;
+}
+
+div.sinopse {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}

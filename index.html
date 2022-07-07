@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,64 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/trailers.css">
 </head>
 
 <body>
     <header>
-        <a href="https://github.com/leocapra" target="_blank"><div class="logo"></div></a>
+        <a href="https://github.com/leocapra" target="_blank">
+            <div class="logo"></div>
+        </a>
         <nav>
             <ul class="nav_links">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Trailers</a></li>
+                <li><a href="index.html#">Inicio</a></li>
                 <li><a href="#">Calendario</a></li>
                 <li><a href="#">Lançamentos</a></li>
                 <li><a href="#">Animes</a></li>
             </ul>
         </nav>
-        <a class="cta" href="#"><button>Contato</button></a>
-
+        <a class="cta" href="https://github.com/leocapra" target="_blank"><button>Contato</button></a>
     </header>
+    <section id="corpo">
 
+
+        <section class="trailers">
+            <h1>Trailers</h1>
+            <p>Trailers de alguns animes. Nós temos como objetivo nesta área do nosso website de animes mostrar alguns
+                trailers de animes que gostamos, e estamos apresentando uma pequena parte do que já assistimos,
+                aproveite e
+                tenha uma ótima experiência assistindo! :)</p>
+            <article class="trailers">
+                <div id="carregando" class="center" align="center">
+                <iframe scrolling="no" src="trailers.html" name="janela" id="frame-spec" ></iframe>
+            </div>
+            <br>
+                <h2>Clique para assistir algum trailer!</h2>
+
+                <nav>
+                    <ul id="trailers">
+                        <a href="trailers.html#mushoku" target="janela">
+                            <li id="trailers01"><span>Mushoku Tensei!</span></li>
+                        </a>
+                        <a href="trailers.html#sao" target="janela">
+                            <li id="trailers02"><span>Sword Art Online!</span></li></a>
+                        </a>
+                        <a href="trailers.html#overlord" target="janela">
+                            <li id="trailers03"><span>Overlord!</span></li>
+                        </a>
+                        <a href="trailers.html#slime" target="janela">
+                            <li id="trailers04"><span>Tensei Shitara Slime Datta Ken!</span></li>
+                        </a>
+                        <a href="trailers.html#taizai" target="janela">
+                            <li id="trailers05"><span>Nanatsu No Taizai!</span></li>
+                        </a>
+                    </ul>
+                </nav>
+            </article>
+        </section>
+
+
+    </section>
 </body>
 
 </html>
